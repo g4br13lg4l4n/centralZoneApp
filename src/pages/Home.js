@@ -38,7 +38,7 @@ export default class Home extends Component {
           </ion-header>,
           <ion-content fullscreen>
             <ion-card>
-              <img src={profile.image} />
+              <img src={profile.image} alt={profile.name}/>
               <ion-card-header>
                 <ion-card-title>{ profile.name } </ion-card-title>
               </ion-card-header>
